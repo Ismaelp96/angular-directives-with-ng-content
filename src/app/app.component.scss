@@ -1,28 +1,36 @@
-.card {
-  &__header {
-    width: 100%;
-    height: 100%;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 1rem;
-    &--direction-column {
-      flex-direction: column;
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 6rem;
+}
+
+.item {
+  .card {
+    &__header {
+      width: 100%;
+      height: 100%;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      gap: 1rem;
+      &--direction-column {
+        flex-direction: column;
+      }
     }
-  }
 
-  &__image {
-    width: 15rem;
-  }
+    &__image {
+      width: 15rem;
+    }
 
-  &__content {
-    width: 100%;
-    height: 100%;
-    text-align: justify;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
+    &__content {
+      width: 100%;
+      height: 100%;
+      text-align: justify;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+    }
   }
 }
