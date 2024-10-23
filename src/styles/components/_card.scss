@@ -1,0 +1,15 @@
+.ca-c-card {
+  max-width: 40rem;
+  &__header {
+    padding: 5rem;
+    height: 40%;
+    background-color: #ffad36;
+    display: block;
+  }
+  &__content {
+    padding: 5rem;
+    height: 60%;
+    background-color: #ff5916;
+    display: block;
+  }
+}
