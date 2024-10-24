@@ -10,6 +10,9 @@ import { CardDescriptionTextDirective } from './card/directives/texts/card-descr
 import { CardMainTextDirective } from './card/directives/texts/card-main-text-.directive';
 import { CardSubTextDirective } from './card/directives/texts/card-sub-text.directive';
 
+import { CardLargeImageDirective } from './card/directives/images/card-large-image.directive';
+import { CardSmallImageDirective } from './card/directives/images/card-small-image.directive';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,6 +22,8 @@ import { CardSubTextDirective } from './card/directives/texts/card-sub-text.dire
     CardMainTextDirective,
     CardSubTextDirective,
     CardDescriptionTextDirective,
+    CardSmallImageDirective,
+    CardLargeImageDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

@@ -25,4 +25,12 @@
     font-size: 2rem;
     font-weight: 300;
   }
+  &__small-image {
+    width: 100%;
+    max-width: 10rem;
+  }
+  &__large-image {
+    width: 100%;
+    max-width: 15rem;
+  }
 }
